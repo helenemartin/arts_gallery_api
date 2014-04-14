@@ -13,5 +13,8 @@ module ArtsGalleryApi
     def retrieve_a_gallery(id)
       HTTParty.get("http://arts-api.herokuapp.com/galleries/#{id}").parsed_response
     end
+    def get_gallery_exhibitions(id)
+      HTTParty.get("http://arts-api.herokuapp.com/galleries/#{id}/exhibitions").parsed_response
+    end
   end
 end
