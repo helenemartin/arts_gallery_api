@@ -19,6 +19,13 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+This gem let you retrieve information from an API listing art galleries.
+It will allow to create a ticket to visit any current London Art show as well as deleting it.
+To get the list of the galleries listed : http://arts-api.herokuapp.com/galleries
+To get the information about an exhibition type :http://arts-api.herokuapp.com/exhibitions/1
+To verify the status of your created ticket type:
+To check the deletion of a ticket, type:
+
 
 ## Contributing
 

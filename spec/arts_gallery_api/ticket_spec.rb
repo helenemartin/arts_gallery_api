@@ -13,4 +13,14 @@ describe ArtsGalleryApi::Ticket do
       subject.create_a_ticket(name, exhibition_id, entry_at).should eq("Created a ticket")
     end
   end
+
+  describe ArtsGalleryApi::Ticket do
+    describe '#delete_a_ticket' do
+    it "deletes a ticket" do
+      id = 1
+      HTTParty.should_receive(:delete).with("http://arts-api.herokuapp.com/ticket/#{id}").and_return("Deleted a ticket")
+      subject.delete_a_ticket(id).should eq("Deleted a ticket")
+    end
+  end
+  end
 end
