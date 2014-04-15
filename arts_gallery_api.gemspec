@@ -6,10 +6,10 @@ require 'arts_gallery_api/version'
 Gem::Specification.new do |spec|
   spec.name          = "arts_gallery_api"
   spec.version       = ArtsGalleryApi::VERSION
-  spec.authors       = ["Shaban Karumba"]
-  spec.email         = ["shaban.karumba@fundingcircle.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["Shaban Karumba", "Helene Martin"]
+  spec.email         = ["shaban.karumba@fundingcircle.com", "helene.martin@fundingcircle.com"]
+  spec.summary       = %q{ Allows developers to access the Arts Gallery API using the wrapper}
+  spec.description   = %q{ A developer can use the gem to retrieve information about art galleries,exhibitions and create and delete tickets}
   spec.homepage      = ""
   spec.license       = "MIT"
 
